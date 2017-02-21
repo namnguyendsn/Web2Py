@@ -1,0 +1,10 @@
+timestamp: 2017-02-17T21:17:21.801593
+CREATE TABLE GardenInfo(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    DateTime TIMESTAMP,
+    SoilMoisture CHAR(512),
+    AirHumidity CHAR(512),
+    Temperature CHAR(512),
+    RelayStatus TEXT
+);
+success!

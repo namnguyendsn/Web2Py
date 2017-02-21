@@ -1,0 +1,2 @@
+{{extend 'layout.html'}}
+<h1>よこそ  {{=session.VisitorName or "ABC"}}様 {{=form.vars.VisitorAge}}歳　{{=session.VisitorName}}から参りました</h1>

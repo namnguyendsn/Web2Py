@@ -1,0 +1,3 @@
+{{extend 'layout.html'}}
+<h1>お名前は？</h1>
+{{=form}}
